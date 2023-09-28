@@ -16,6 +16,7 @@ jobs:
       - name: digger run
         uses: diggerhq/digger@feat/update-lib-orchestrator
         with:
+          upload-plan-destination: github
           setup-aws: false
           disable-locking: true
         env:
