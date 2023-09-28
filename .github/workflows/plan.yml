@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: digger run
-        uses: diggerhq/digger@feat/update-lib-orchestrator
+        uses: diggerhq/digger@fix/applying-from-plan
         with:
           upload-plan-destination: github
           setup-aws: false
